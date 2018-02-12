@@ -1,0 +1,19 @@
+{
+  "name": "dia-td2",
+  "version": "1.0.0",
+  "description": "TD2 du cours de développement et déploiement d'applications distribuées.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreimert/dia-td2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreimert/dia-td2/issues"
+  },
+  "homepage": "https://github.com/dreimert/dia-td2#readme"
+}
