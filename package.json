@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dreimert/dia-td2/issues"
   },
-  "homepage": "https://github.com/dreimert/dia-td2#readme"
+  "homepage": "https://github.com/dreimert/dia-td2#readme",
+  "dependencies": {
+    "nodemon": "^1.14.12",
+    "zeromq": "^4.6.0"
+  }
 }
