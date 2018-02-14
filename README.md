@@ -38,6 +38,10 @@ Prenez quelques minutes pour lire la préface, l'introduction du chapitre 1 puis
 
 ## Implémentation
 
+Cloner ce dépot :
+
+    git clone https://github.com/dreimert/dia-td2.git
+
 Installation de l'implémentation node.js de ØMQ : https://github.com/zeromq/zeromq.js/
 
     npm install -S zeromq
