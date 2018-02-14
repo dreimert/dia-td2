@@ -56,7 +56,6 @@ Mettre en place l'infrastructure suivante :
 Vous pouvez éditer les fichiers suivants :
 
 * producteur.js
-* routeur.js
 * multi-pairs.js
 * multi-impairs.js
 * loggueur.js
@@ -66,7 +65,6 @@ Vous pouvez éditer les fichiers suivants :
 Lancer chaque commandes dans un terminal diffèrent :
 
     npm run producteur
-    npm run routeur
     npm run multi-pairs
     npm run multi-impairs
     npm run loggueur
