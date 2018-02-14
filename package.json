@@ -4,7 +4,11 @@
   "description": "TD2 du cours de développement et déploiement d'applications distribuées.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "producteur": "nodemon producteur.js",
+    "multi-pairs": "nodemon multi-pairs.js",
+    "multi-impairs": "nodemon multi-impairs.js",
+    "loggueur": "nodemon loggueur.js"
   },
   "repository": {
     "type": "git",

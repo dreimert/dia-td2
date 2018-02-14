@@ -42,16 +42,34 @@ Installation de l'implémentation node.js de ØMQ : https://github.com/zeromq/ze
 
     npm install -S zeromq
 
+Installation de nodemon :
+
+    npm install -S nodemon
+
 Mettre en place l'infrastructure suivante :
 
-* 2 à n producteurs qui engendre un nombre entre 1 et 100 tous les secondes, l'affiche et l'envoie sur le réseau.
-* un routeur qui redirige :
+* 2 à n producteurs qui engendre un nombre entre 1 et 100 tous les secondes, l'affiche et l'envoie sur le réseau avec la contrainte suivante :
   * les nombres pairs vers un services qui les multiplie par 2 et soustrait 1
   * les nombres impaires vers un services qui les multiplie par 3
 * un service qui affiche les résultats des opérations
 
+Vous pouvez éditer les fichiers suivants :
+
+* producteur.js
+* routeur.js
+* multi-pairs.js
+* multi-impairs.js
+* loggueur.js
 
 ## Test
+
+Lancer chaque commandes dans un terminal diffèrent :
+
+    npm run producteur
+    npm run routeur
+    npm run multi-pairs
+    npm run multi-impairs
+    npm run loggueur
 
 Vos yeux.
 
