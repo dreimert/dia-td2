@@ -83,4 +83,4 @@ Tout va plus vite avec les bonnes technologies. Manipuler des données est au co
 
 ## Pour aller plus loin
 
-Fait ça mais avec vos voisins. Imaginer des architectures plus complexes.
+Faites ça mais avec vos voisins. Imaginer des architectures plus complexes. Cherchez ce qu'est MapReduce et faites une implémentation avec ZeroMQ.
